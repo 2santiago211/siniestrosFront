@@ -19,13 +19,33 @@
             color: #fff;
             text-align: center;
             padding: 15px 0;
+            position: relative;
+        }
+
+        .navegacion {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
         }
 
         .navegacion a {
             color: #fff;
-            margin:  10px;
+            margin: 10px;
             text-decoration: none;
             font-weight: bold;
+        }
+
+        /* Posicionar los botones en la parte derecha */
+        .navegacion .botones {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .navegacion .botones a {
+            margin-left: 10px;
         }
 
         .seccion-principal {
@@ -95,6 +115,12 @@
             <a href="/estadisticas.html">Estadísticas</a>
             <a href="/prevencion.html">Prevención</a>
             <a href="contacto" data-bs-toggle="modal" data-bs-target="#contactModal" aria-label="Ir a la página de contacto">Contacto</a>
+
+            <!-- Botones de Iniciar sesión y Registro alineados a la derecha -->
+            <div class="botones">
+                <a href="/inicioSesion.html" class="btn ">Iniciar sesión</a>
+               
+            </div>
         </nav>
     </header>
 
@@ -126,11 +152,11 @@
                     </ul>
                     <p>También puedes seguirnos en nuestras redes sociales para obtener más información y actualizaciones.</p>
                     <p>Síguenos en nuestras redes sociales:</p>
-<ul>
-    <li><a href="https://facebook.com/siniestroviales" target="_blank">Facebook</a></li>
-    <li><a href="https://twitter.com/siniestroviales" target="_blank">Twitter</a></li>
-    <li><a href="https://instagram.com/siniestroviales" target="_blank">Instagram</a></li>
-</ul>
+                    <ul>
+                        <li><a href="https://facebook.com/siniestroviales" target="_blank">Facebook</a></li>
+                        <li><a href="https://twitter.com/siniestroviales" target="_blank">Twitter</a></li>
+                        <li><a href="https://instagram.com/siniestroviales" target="_blank">Instagram</a></li>
+                    </ul>
 
                     <p><em>¡Estamos aquí para ayudarte!</em></p>
                 </div>
