@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prevención de Accidentes Viales</title>
+    <!-- Vinculación a Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .encabezado {
+            background-color: #1e88e5;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        .navegacion a {
+            color: #fff;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .prevencion {
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .prevencion h2 {
+            text-align: center;
+            color: #1e88e5;
+        }
+
+        .prevencion ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .prevencion li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .prevencion li h5 {
+            margin-bottom: 10px;
+            color: #1e88e5;
+        }
+
+        footer.pie {
+            background-color: #1e88e5;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="encabezado">
+        <h1>Siniestros Viales</h1>
+        <nav class="navegacion">
+            <a href="/index.html">Inicio</a>
+            <a href="/estadisticas.html">Estadísticas</a>
+            <a href="/prevencion.html">Prevención</a>
+            <a href="contacto" class="text-white" data-bs-toggle="modal" data-bs-target="#contactModal">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="prevencion">
+        <h2>Medidas de Prevención</h2>
+        <ul>
+            <li>
+                <h5>Usa el cinturón de seguridad</h5>
+                <p>El cinturón de seguridad puede salvar tu vida al reducir el riesgo de lesiones graves durante un accidente.</p>
+            </li>
+            <li>
+                <h5>No conduzcas bajo los efectos del alcohol o drogas</h5>
+                <p>El alcohol y las drogas afectan tus reflejos y capacidad de concentración, aumentando el riesgo de accidentes.</p>
+            </li>
+            <li>
+                <h5>Respeta las señales de tránsito</h5>
+                <p>Las señales de tránsito son fundamentales para mantener el orden y la seguridad en las vías. Siempre sigue las indicaciones.</p>
+            </li>
+            <li>
+                <h5>Evita el uso del celular mientras conduces</h5>
+                <p>El uso del celular distrae tu atención, aumentando el riesgo de accidentes. Usa el teléfono solo cuando sea necesario y en un lugar seguro.</p>
+            </li>
+            <li>
+                <h5>Realiza mantenimientos preventivos en tu vehículo</h5>
+                <p>Asegúrate de que tu vehículo esté en buen estado, con frenos, luces y neumáticos adecuados.</p>
+            </li>
+        </ul>
+    </section>
+
+     <!-- Modal de Contacto (Bootstrap) -->
+     <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contacto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Si tienes alguna pregunta o necesitas más información, puedes ponerte en contacto con nosotros a través de los siguientes medios:</p>
+                    <ul>
+                        <li><strong>Teléfono:</strong> 01 8000 420 420</li>
+                        <li><strong>Correo electrónico:</strong> <a href="mailto:siniestroviales@gmail.com">siniestroviales@gmail.com</a></li>
+                    </ul>
+                    <p>También puedes seguirnos en nuestras redes sociales para obtener más información y actualizaciones.</p>
+                    <p>Síguenos en nuestras redes sociales:</p>
+<ul>
+    <li><a href="https://facebook.com/siniestroviales" target="_blank">Facebook</a></li>
+    <li><a href="https://twitter.com/siniestroviales" target="_blank">Twitter</a></li>
+    <li><a href="https://instagram.com/siniestroviales" target="_blank">Instagram</a></li>
+</ul>
+
+                    <p><em>¡Estamos aquí para ayudarte!</em></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pie">
+        <p>&copy; 2024 Siniestros Viales. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Vinculación a Bootstrap JS y Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
